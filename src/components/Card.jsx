@@ -10,7 +10,7 @@ function Card (props) {
         <span className="grey"></span>
         <span className="grey"></span>
       </div>
-      <p><span></span></p>
+      <p><span>Working on this section...coming soon</span></p>
       <p><span></span></p>
     </div>
   )
