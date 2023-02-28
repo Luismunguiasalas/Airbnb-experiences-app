@@ -1,19 +1,21 @@
-import React from 'react'
+import React from "react";
 
-function Card (props) {
+function Card(props) {
   return (
     <div className="card">
-      <img src="" alt="" className="card--img"/>
+      <img src={`/${props.img}`} alt="" className="card--img" />
       <div className="card--stats">
-        <img src="" alt="" className="card--star"/>
-        <span></span>
-        <span className="grey"></span>
-        <span className="grey"></span>
+        <img src="/start.png" alt="" className="card--star" />
+        <span>{props.rating}</span>
+        <span className="grey">({props.reviewCount}) • </span>
+        <span className="grey">({props.location})</span>
       </div>
-      <p><span>Working on this section...coming soon</span></p>
-      <p><span></span></p>
+      <p className="card--title">{props.title}</p>
+      <p className="card--price">
+        <span className="bold">{props.price}</span>
+      </p>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;
