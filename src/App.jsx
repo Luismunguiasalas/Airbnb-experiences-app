@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
+import . from 'public/assets'
 
 function App() {
   return (
