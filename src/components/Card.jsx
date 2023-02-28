@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card () {
+function Card (props) {
   return (
     <div className="card">
       <img src="" alt="" className="card--img"/>
